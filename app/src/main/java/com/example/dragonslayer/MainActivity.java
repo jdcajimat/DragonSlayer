@@ -71,15 +71,14 @@ public class MainActivity extends AppCompatActivity {
                 story += "\n\nSuddenly the rumbling stops. The hall becomes eerily silent. A second later, the dragon explodes with a blinding light. ";
                 story += "The barrier barely withstood the impact, shattering into bits of fragmented light the moment the explosion abated. ";
                 story += "" + etMage.getText() + "collapsed, heaving from the heavy toll. Their eyes shut tight with pain. ";
-                story += "\n\n\"At least it's dead. Let's bring its core back to " + etKingdom.getText() + ".\" " + etMage.getText() + " wheezed. ";
+                story += "\n\n\"It has fallen. Let us return its core back to " + etKingdom.getText() + ".\" " + etMage.getText() + " wheezed. ";
                 story += "\"Help me up.\" \n\n" + etWarrior.getText() + "didn't say anything. ";
                 story += "" + etMage.getText() + "opened their eyes to find a sword through their chest.\n\n";
                 story += "\"Why-\" " + etMage.getText() + "'s words got cut off as " + etWarrior.getText() + " skewers their sword into their throat. ";
                 story += "Soon a " + etColor.getText() + "colored orb appears from the mage's chest. ";
                 story += "The warrior stuff it into a pocket and walks over to the mutilated dragon.\n\n";
                 story += " Within the mess was a glowing azure orb the size of their palm. Grabbing it, the warrior walks past the corpses, towards the shattered gate. ";
-                story += "Without looking back, the figure in crimson walks into the raging blizzard — like a spot of blood in the sea of white.\n\n";
-                story += "THE END.";
+                story += "Without looking back, the figure in crimson walks into the raging blizzard — like a spot of blood in the sea of white.";
 
                 intentDisplay.putExtra("story",story);
 
